@@ -21,9 +21,7 @@ Build and deploy AI on iMessage to reach people at scale while maintaining quali
 
 ## What we're building
 
-Email is oversaturated. LinkedIn is noise. Founders are stuck juggling Clay, Apollo, and Artisan — spending hours on outbound instead of building.
-
-**Chert is the iMessage layer for AI.** We deliver real, peer-to-peer iMessage threads — blue bubbles, read receipts, tapbacks, group chats — through a single API. SMS fallback when a recipient isn't on iMessage, and we surface the distinction so you always know which channel a message landed on.
+**Chert is the iMessage layer for AI.** Build applications and agents that communicate through iMessage, with features such as read receipts, tapbacks, and group chats when available.
 
 We believe the future is **conversational, not transactional**. We're building the emotional layer of trust between humans and AI.
 
@@ -31,13 +29,13 @@ We believe the future is **conversational, not transactional**. We're building t
 
 One API surface. Everything you'd expect from iMessage, built for product teams.
 
-- 💬 **Blue-bubble messaging** — real iMessage threads, verified senders, end-to-end encryption
+- 💬 **Blue-bubble messaging** — iMessage threads for applications and agents
 - ⚡ **Typing & tapbacks** — live indicators and reactions, captured natively
 - 👥 **Group chats** — multi-recipient threads with named senders
-- 📡 **SMS / RCS fallback** — auto-rerouted when the recipient is off-platform
+- 📡 **SMS fallback** — available for eligible sends on supported lines; shared lines are iMessage-only. Confirm dedicated-line support with us.
 - 📎 **Attachments** — photos, PDFs, links, native to the thread
-- 📊 **Live delivery state** — sub-second deliverability telemetry per message
-- 🔐 Verified phone numbers · message receipts · webhooks · compliance audits
+- 📊 **Message status** — delivery and read receipts when available
+- 🔐 Message events and webhooks
 
 ## Use cases
 
@@ -46,7 +44,6 @@ One API surface. Everything you'd expect from iMessage, built for product teams.
 | **Onboarding** | Welcome someone the moment they sign up |
 | **Customer support** | Resolve in iMessage — no portal, no ticket queue |
 | **B2C agents** | Books, reschedules, answers — like a real person |
-| **Cold outbound** | Get replies SDRs can't, without the spam flag |
 
 ## Integrations
 
